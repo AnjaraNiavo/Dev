@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 50px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+   
+    width: 60%;
+    height: 350px;
+    margin: auto;
+    background-color: #000000;
+    padding:  50px 10px 50px 10px;
+    text-align: left;
+    border-radius: 7px;
+}
+
+.container h1{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+
+.container h1 span{
+    color: green;
+}
+
+
+.container p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.container #passwordbtn{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin: 10px 0px;
+}
+
+.container .subcontainer{
+    width: 80%;
+    height: 100px;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+
+.container .subcontainer div{ 
+    width: 250px;
+    height: 30px;
+    background-color: #141313;
+    margin: 10px 5px;
+    border-radius: 7px;
+    color:#ffffff;
+    font-size: 16px;
+    padding: 10px;
+}

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 300px;
+}
+#input_el{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+
+#container{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 10px;
+}
+#save_el {
+  background-color: #5f9341;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border:none;
+  border-radius: 7px;
+  margin-bottom: 20px;
+
+}
+
+#tab_el {
+  background-color: #5f9341;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border:none;
+  border-radius: 7px;
+  margin-bottom: 20px;
+
+}
+
+#delete_el{
+  background-color:#ffffff;
+  color:  #5f9341;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+  text-transform: capitalize;
+}
+
+
+
+#ul_el{
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+#ul_el li{
+  margin-bottom: 10px;
+  
+}
+
+#ul_el li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+

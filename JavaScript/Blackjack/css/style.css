@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  rgb(1, 41, 1);
+    padding: 50px;
+    color: #fff;
+    
+}
+
+ div#container {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    
+}
+
+div#container h1{
+    color: goldenrod;
+    
+}
+
+div#container h4{
+    font-style: italic;
+}
+
+div#container p{
+    text-transform: capitalize;
+}
+
+div#container div#btncontainer {
+
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    
+}
+
+div#container button{
+
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px ;
+    width: 150px;
+    color: #016f32;
+    background-color: goldenrod;
+    margin-top: 30px;
+}
+
+
+div#container .playerEl{
+        text-transform: lowercase;
+}

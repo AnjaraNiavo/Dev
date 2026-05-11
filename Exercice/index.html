@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my first Web site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownclick">
+            <li><a href="#">home</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">contact</a></li>
+            <li class="topnav-right"><a href="#">sign in</a></li>
+            <li class="topnav-right"><a href="#">sign up</a></li>
+            <li class="dropDownIcon"><a href="javascript:void(0)" onclick="dropdownMenu()">&#9776;</a></li>
+            
+        </ul>
+    </nav>
+    <div class="contenair" id="linear-gradient">
+
+        
+    </div>
+
+    <!--Javacript for dropdpwn-->
+    <script>
+        function dropdownMenu(){
+            var x = document.getElementById("dropdownclick");
+            if (x.className === "topnav"){
+                 x.className += " responsive";
+            }
+            else{
+                x.className ="topnav";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+html{
+    font-family: "Times New ROman",serif,sans-serif;
+    
+}
+body{
+    /*background-image:url(../CSS_COLOR_AND_SHADOWS/wall_e.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover*/
+    background-color: #444;
+    text-align: center;
+}
+ 
+
+h1, h2, .title_3, #identity{
+    color: #ffffff;
+    line-height: 1rem;
+    font-style: italic;
+    
+}
+h2{
+    font-size:  30px;
+    color: red;
+    font-style: normal;
+    
+}
+.border-image{
+    border: 5px dotted red;
+    
+}
+
+ul li{
+    color: white;
+    font-size: 20px;
+    
+}
+
+ul > li{
+    color: yellow;
+}
+
+/*This a combinator CSS*/
+.First-wrapper, .second-wrapper{
+    
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+    margin:  0px auto 20px auto;
+}
+
+.formatting{
+    font-size:  25px;
+    font-height = 2em;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: yellow;
+    word-spacing: 20px;
+    text-transform: uppercase;
+}

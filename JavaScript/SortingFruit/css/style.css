@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    border: 2px solid #dddddd;
+    text-align: center;
+    
+}
+
+.container h1{
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+
+.container #appleEl{
+     width: 70%;
+     height: 50px;
+     margin: 20px auto 20px auto;
+     background-color: purple;
+    
+}
+
+.container #orangeEl{
+  width: 70%;
+  height: 50px;
+  margin: 20px auto 20px auto;
+  background-color: pink;
+ 
+}

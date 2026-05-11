@@ -1,0 +1,431 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    
+    
+}
+
+/*Default*/
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.container .float-left{
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.menu{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.burger_king{
+    width: 95px;
+    height: 95px;
+    position: relative;
+    margin-left: 100px;
+}
+.burger_king img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.float-left .navbar{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar  a{
+    font-size: 30px;
+    margin: 0 20px;
+    text-transform: capitalize;
+    font-weight: 200;
+    text-decoration: none;
+    color: #111;
+    position: relative;
+}
+
+
+.navbar  a::after{
+    position: absolute;
+    content: "";
+    left:0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #f7a800;
+    transition: 0.1s ease-out;
+}
+
+.navbar  a:hover::after{
+   width: 100%;
+}
+
+.float-right{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.float-right i{
+   
+    margin-right: 20px;
+
+}
+
+
+button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    height: 90px;
+    padding: 8px 15px;
+    background-color: rgb(143, 29, 114);
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 50px;
+    z-index: 1;
+    transition:  0.2s ease-out;
+    width: 250px;
+    height: 100px;
+
+}
+
+button:hover{
+    transform: scale(1.06);
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.float-right img{
+    width: 30px;
+    height: 30px;
+}
+.bx-location-plus{
+    position: relative;
+}
+
+.login{
+    position: absolute;
+    right: -22px;
+    width: 370px;
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    top: 60px;
+    align-items: center;
+    
+}
+
+.login button{
+    margin: 20px;
+    background-color: #f7a800;
+}
+
+.login button:last-child{
+    border: 2px solid #f7a800;
+    color: #f7a800;
+    background-color: transparent;
+}
+
+.login hr{
+    border: 0;
+    margin: 30px 0;
+    width: 80%;
+    height: 2px;
+    background-color: #252525;
+}
+
+.login p{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+/*Creation de petite boite*/
+.login::after{
+    position: absolute;
+    right: 40px;
+    content: "";
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    z-index: -3;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    transform: rotate(50deg);
+}
+
+.login::before{
+    position: absolute;
+    content: "";
+    right: 40px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    z-index: -3;
+    transform: rotate(50deg);
+}
+
+.bx-location-plus:hover .login{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*Home*/
+.home{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: url(../images/img1.webp) ;
+    margin-top: 5px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 200px);
+
+}
+
+.home button{
+    margin-bottom: 30px;
+}
+/*Food*/
+
+.foods{
+    margin-left: 50px 0;
+    padding: 0 10%;
+}
+
+
+
+.foods p{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.foods-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foods-list img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.foods-list .box{
+    transition: all 0.3s ease-out;
+}
+.foods-list .box:hover{
+    transform: scale(1.07);
+}
+
+.fidelity-prog{
+    padding: 35px;
+    height: 400px;
+    background: url(../images/img8.png);
+    
+}
+.fidelity-prog .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fidelity-prog .container div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    
+}
+
+.fidelity-prog .container div img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+.div1 button{
+    width: 200px;
+    margin: auto;
+    background-color: #f7a800;
+}
+
+.div3 button{
+    width: 400px;
+    margin: auto;
+    background-color: #f7a800;
+}
+
+.fidelity-prog .container .div2{
+    width: 500px;
+    margin-top: 50px;
+}
+
+
+/*litle-foods*/
+.litle-food{
+    padding: 0 10%;
+    margin-top: 20px;
+}
+
+.litle-food .litle-food-box{
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.litle-food img{
+    width: 300px;
+}
+
+.litle-food .litle-food-box .box{
+    background-color: #fbf5ee;
+    width: 500px;
+    height: 100%;
+    padding: 20px;
+    margin: 0 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    transition: 0.25s;
+    border-radius: 10px;
+}
+
+.litle-food .litle-food-box .box:hover{
+    transform: scale(0.9);
+}
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #111;
+}
+footer .footer-box{
+    width: 90%;
+    margin: auto;
+}
+footer .div1 p{
+    color: #fff;
+    font-size: 25px;
+}
+
+footer .div1 .social-media{
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-media i{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+footer .div1 .application{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+footer .div1 .application img{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #fff;
+    
+}
+
+.div1 .application img:last-child{
+    margin-left: 20px;
+}
+
+.footer-box .div2{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    font-size: 25px;
+    line-height: 2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul li:hover{
+    letter-spacing: 1.25s;
+}
+
+
+

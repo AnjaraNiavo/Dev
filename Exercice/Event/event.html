@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+
+        <button onclick="date()">The date is ?</button>
+
+        <p id="date"></p>
+
+        <input type="text" id="idElm">
+
+        <button onclick="
+        console.log(document.getElementById('idElm').innerHTML)">show</button>
+
+        <p id="shipt"></p>
+
+        <script>
+            function date (){
+                document.getElementById('date').innerHTML = Date ()
+
+            }
+        </script>
+</body>
+</html>

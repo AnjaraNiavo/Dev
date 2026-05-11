@@ -1,0 +1,199 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+/*header*/
+
+header{
+  width: 100%;
+  height: 200px;
+  background-color: rebeccapurple;
+  padding: 20px;;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.logo img{
+  width: 100px;
+  height: 100px;
+}
+
+.logo h1{
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #757272;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.container nav ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 40px;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 35px;
+  color:#757272;
+  transition: 0.3s  all ease-out;
+  cursor: pointer;
+}
+
+nav ul li a:hover{
+  transform: scale(1.02);
+  letter-spacing: 2;
+  color: green;
+
+}
+
+
+.button_1{
+  width: 300px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, green, #b44d11);
+  color: #fff;
+  font-size : 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/*section_1*/
+
+.section_1{
+  width: 100%;
+  margin-top: 50px;
+  background-color: aqua;
+  /*height: 600px;*/
+}
+
+.section_1 .container{
+  padding: 50px;
+
+}
+
+.container .container_1{
+  width: 900px;
+  height: 900px;
+  background-color: red;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.container_1 h1{
+  font-size: 130px;
+  text-transform: uppercase;
+  color: #757272;
+  margin-bottom: 10px;
+}
+
+.container_1 h1 span{
+  color: green;
+}
+
+.container_1 h5{
+  font-size: 39px;
+  text-transform: capitalize;
+  color: #757272;
+  margin-bottom: 10px;
+  
+}
+.container_1 p{
+  text-align: left;
+  font-size: 35px;
+  color: #757272;
+}
+
+.button_2{
+  margin-top: 20px;
+  width: 300px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, green, #b44d11);
+  color: #fff;
+  font-size : 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.container .container_2{
+  width: 900px;
+  height: 900px;
+  position: relative;
+  top:0;
+  left: 0;
+
+
+}
+
+
+.container_2 img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 0 0 0 20px rgba(0,0,0,0.1);
+}
+
+
+/* service*/
+section.service{
+  width: 100%;
+  margin-top:50px
+}
+.service .container{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.service .container h1{
+    font-size: 30px;
+    text
+}

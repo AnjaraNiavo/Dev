@@ -1,0 +1,38 @@
+body{
+    background-image:url(../CSS_COLOR_AND_SHADOWS/wall_e.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+ 
+
+h1, h2, .title_3, #identity{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.border-image{
+    border: 5px dotted red;
+    
+}
+
+ul li{
+    color: white;
+    font-size: 20px;
+}
+
+ul > li{
+    color: yellow;
+}
+
+/*This a combinator CSS*/
+.First-wrapper, .second-wrapper{
+    
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+    margin:  0px auto 20px auto;
+}

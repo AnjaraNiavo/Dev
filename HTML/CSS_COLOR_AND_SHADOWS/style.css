@@ -1,0 +1,24 @@
+body{
+    background-image:url(wall_e.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.contenair{
+    background: linear-gradient(to right,#00ace6,	 #b3ecff);
+    darkslateblue;
+    box-shadow: -3px 5px 5px pink;
+}
+
+h1{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+h2{
+    color: rgb(255,255,255);
+    text-shadow: 1px 1px 3px darkred;
+}
+
+.border-image{
+    border: 5px dotted red;
+    
+}

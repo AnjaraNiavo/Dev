@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+    
+}
+#box_el{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    color: #ffffff;
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    line-height: 5;
+    font-weight: 400;
+    cursor: pointer;
+}

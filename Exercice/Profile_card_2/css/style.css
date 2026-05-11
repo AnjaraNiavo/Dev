@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenair{
+    max-width: 470px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    border: 3px solid #c0b7b7;
+    box-shadow: 2px 5px 3px #c0b7b7;
+    padding: 20px;
+    border-radius: 24px;
+
+
+
+}
+
+
+.contenair::before{
+    content: "";
+    position:absolute;
+    width: 100%;
+    height: 150px;
+    top:0;
+    left: 0;
+    border-radius: 24px 24px 0 0;
+    background-color: blue;
+}
+
+
+.contenair .profile-card{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 4px solid blue;
+    border-radIus: 50%;
+    padding: 4px;
+    margin-bottom: 20px;
+
+}
+
+.profile-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+    
+}
+
+.contenair .text-span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-span .coding{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.contenair .logo{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    margin: 0 8px;
+    border-radius: 50%;
+    padding: 3px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+form{
+    margin: 30px 0 30px 0;
+    
+
+}
+
+form button{
+    width: 150px;
+    height: 40px;
+    margin: 0 8px;
+    border-radius: 24px;
+    background-color: rgb(77, 77, 173);
+    border:none;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background-color: rgb(43, 78, 155);
+}
+
+.reaction{
+    display: flex;
+}
+
+.reaction .data{
+    margin: 0 10px;
+    border-right: 2px solid rgb(58, 54, 54);
+    padding-right: 15px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.reaction .data:last-child{
+    border-right: none;
+}
+
+

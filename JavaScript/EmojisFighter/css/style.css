@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  margin: 50px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #dddddd;
+  border-radius: 7px;
+
+}
+
+.container h1{
+   
+    text-transform: uppercase;
+    color: orange;
+    font-style: italic;
+
+}
+
+.container #stage{
+    margin: 20px;
+    width: 60%;
+    height: 100px;
+    margin:  auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container #fightbutton{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bt_el{
+  width: 500px;
+  height: 100px;
+  margin: 50px;
+  text-transform: uppercase;
+  background-color: brown;
+  color: #ffffff;
+  
+}

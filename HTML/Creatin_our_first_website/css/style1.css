@@ -1,0 +1,51 @@
+/*Default*/
+
+nav, header, footer{
+    display: block;
+}
+
+body{
+    line-height: 1;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    padding: 0;
+}
+
+nav ul{
+    background-color: #42ecf5;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul li.topnav-right{
+    float: right;
+}
+
+ul li a{
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px; 
+    color: #ffffff;
+}
+
+ul li a:hover{
+    background-color: aliceblue;
+    color: #333333;
+    text-decoration: underline;
+}
+
+#myName{
+    
+}
+
